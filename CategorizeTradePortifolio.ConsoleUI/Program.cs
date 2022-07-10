@@ -48,10 +48,6 @@ for (int i = 0; i < numero; i++)
         },
         TaskContinuationOptions.OnlyOnRanToCompletion
         );
-
-        //CategoryService categoryService = new CategoryService(category);
-
-        lstCategory.Add(category);
     }
     else
     {
@@ -114,7 +110,6 @@ bool Validated(string? data, ref Category category)
 Console.WriteLine();
 for (int i = 0; i < numero; i++)
 {
-    //Enum.GetNames(typeof(OutputCategory));
     Console.WriteLine((OutputCategory)lstCategory[i].OutputCategory);
 }
 

@@ -22,15 +22,13 @@ namespace CategorizeTradePortifolio.ConsoleUI.Repository
 
         public async Task<Category> PostCategoryTradeAsync(Category category)
         {
-            //string request = JsonConvert.SerializeObject(category);
-
             HttpResponseMessage response = await client.PostAsJsonAsync("api/Category", category);
 
             if (response.IsSuccessStatusCode)
             {
-                var dados = await response.Content.ReadAsStringAsync();
+                var data = await response.Content.ReadAsStringAsync();
 
-                return JsonConvert.DeserializeObject<Category>(dados);
+                return JsonConvert.DeserializeObject<Category>(data);
             }
 
             return new Category();
