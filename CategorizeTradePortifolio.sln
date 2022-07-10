@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategorizeTradePortifolio.Domain", "CategorizeTradePortifolio.Domain\CategorizeTradePortifolio.Domain.csproj", "{791D43B9-00A7-4841-9D97-1DCE2C3454FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategorizeTradePortifolio.Service", "CategorizeTradePortifolio.Service\CategorizeTradePortifolio.Service.csproj", "{75F616DB-EE79-47EC-BD08-0782D486CCDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategorizeTradePortifolio.ConsoleUI", "CategorizeTradePortifolio.ConsoleUI\CategorizeTradePortifolio.ConsoleUI.csproj", "{B22EBDE1-05AC-48DE-B00D-DCAE1D3B5834}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CategorizeTradePortifolio.API", "CategorizeTradePortifolio.API\CategorizeTradePortifolio.API.csproj", "{2091C3FE-6A61-48EE-AB76-B673EFD7049E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategorizeTradePortifolio.Common", "CategorizeTradePortifolio.Common\CategorizeTradePortifolio.Common.csproj", "{905EDC49-DD03-47ED-9445-BD90ECC70625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791D43B9-00A7-4841-9D97-1DCE2C3454FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791D43B9-00A7-4841-9D97-1DCE2C3454FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791D43B9-00A7-4841-9D97-1DCE2C3454FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791D43B9-00A7-4841-9D97-1DCE2C3454FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F616DB-EE79-47EC-BD08-0782D486CCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F616DB-EE79-47EC-BD08-0782D486CCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F616DB-EE79-47EC-BD08-0782D486CCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F616DB-EE79-47EC-BD08-0782D486CCDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22EBDE1-05AC-48DE-B00D-DCAE1D3B5834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22EBDE1-05AC-48DE-B00D-DCAE1D3B5834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22EBDE1-05AC-48DE-B00D-DCAE1D3B5834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22EBDE1-05AC-48DE-B00D-DCAE1D3B5834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2091C3FE-6A61-48EE-AB76-B673EFD7049E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2091C3FE-6A61-48EE-AB76-B673EFD7049E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2091C3FE-6A61-48EE-AB76-B673EFD7049E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2091C3FE-6A61-48EE-AB76-B673EFD7049E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905EDC49-DD03-47ED-9445-BD90ECC70625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905EDC49-DD03-47ED-9445-BD90ECC70625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905EDC49-DD03-47ED-9445-BD90ECC70625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905EDC49-DD03-47ED-9445-BD90ECC70625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F0C538-5E9D-4A9E-98B4-D17CD17E05D9}
+	EndGlobalSection
+EndGlobal
