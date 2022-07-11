@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CategorizeTradePortifolio.Common.Enum
+namespace CategorizeTradePortifolio.ConsoleUI.Enum
 {
     public enum OutputCategory
     {

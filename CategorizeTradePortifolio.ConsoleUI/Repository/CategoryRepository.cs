@@ -1,4 +1,4 @@
-﻿using CategorizeTradePortifolio.Common.Entity;
+﻿using CategorizeTradePortifolio.ConsoleUI.Entity;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
